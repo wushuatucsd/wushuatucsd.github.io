@@ -101,7 +101,7 @@ const IndexPage = () => {
               We accept payment in the following forms:
               <ul className="list-disc pt-2">
                 <li>Venmo: @Wushu-UCSD</li>
-                <li>Zelle: ucsdwushu@gmail.com</li>
+                <li>Zelle: wushuatucsd@gmail.com</li>
                 <li>Cash: talk to a cabinet member via Discord or at practice to make an arrangement.</li>
               </ul>
             </p>
