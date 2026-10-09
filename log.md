@@ -27,3 +27,5 @@ push: scp -r public/. wushu@acsweb.ucsd.edu:~wushu/public_html
 1/8/2024: handover to vivian :D replaced wushu class times with placeholders, minor visual tweaks and cleaned up/moved repeated class styles into stylesheet
 
 11/10/2025: update cabinet and class schedule for fa25, replaced some images and fixed links broken by migration to ucsd_at_wushu handles
+
+10/9/2026: update class schedule for fall quarter (Sunday, Wednesday, Saturday)

@@ -48,14 +48,14 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Class" />
       <div className="lg:pl-xs">
         <div className="border-solid lg:border-l min-w-full min-h-screen">
           <BackgroundImage className="px-8 lg:px-16 pt-40 lg:pt-16 pb-8 lg:pb-16 border-solid border-b bg-tint" fluid={data.track.childImageSharp.fluid}>
             <h1 className="text-3xl lg:text-4xl mt-auto lg:pr-64 z-10" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>
               Class
             </h1>
-            <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>March 4 2026</strong></h3>
+            <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>October 2026</strong></h3>
           </BackgroundImage>
 
           <div className="px-8 lg:px-16 py-16">
@@ -67,47 +67,35 @@ const IndexPage = () => {
             <p className="text-lg max-w-3xl">
 
             </p>
-            <h2 className="text-2xl pt-8 pb-4" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>Classes</h2>
+            <h2 className="text-2xl pt-8 pb-4" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>Fall Quarter Classes</h2>
             {<div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-5xl">
-              {/*monday class*/}
+              {/*sunday class*/}
               <Class
-                day="Monday"
-                coach="Serena"
-                location="RIMAC Room 1"
-                desc="A class for everyone"
-                time="7-8:00pm"
+                day="Sunday"
+                coach="Zhoujie, 5+ years of experience"
+                desc="For: All skill levels, especially beginners · $30/qtr"
+                time="10:30 am - 12:30 pm"
                 img={data.rimac.childImageSharp.fluid}
               />
               {/*wednesday class*/}
               <Class
                 day="Wednesday"
-                coach="Serena"
-                location="RIMAC Room 1"
-                desc="A class for everyone"
-                time="7-8:00pm"
-                img={data.rimac.childImageSharp.fluid}
-              />
-              {/*Friday class*/}
-              <Class
-                day="Friday"
-                coach="Alex"
-                location="Price Center Dance Studio"
-                desc="We focus on improving the quality of your combos, basics, and forms"
-                time="4:30-6:30pm"
+                coach="Alex, 14+ years of experience"
+                desc="For: All skill levels · $30/qtr"
+                time="3:30 pm - 5:30 pm"
                 img={data.rimac2.childImageSharp.fluid}
               />
               {/*saturday class*/}
               <Class
                 day="Saturday"
-                coach="Jess, Nathan"
-                location="an off-campus Wushu studio."
-                desc="A class focused on competition preparation and training jumps."
-                time="7:00pm-9:30pm"
+                coach="Daniel, 10+ years of experience"
+                desc="For: Intermediate skill levels, looking to elevate their wushu · $80/qtr, or $15 to drop in"
+                time="7:00 pm - 10:00 pm"
                 img={data.gd.childImageSharp.fluid}
               />
             </div>}
             <p className="text-lg max-w-5xl pt-6">
-              Monday and Wednesday practices are via <a href="https://rec.ucsd.edu/Program/GetProgramDetails?courseId=530044c1-0b1b-47ad-9704-5e68acd2a8b9" className="border-b border-gray-700 hover:border-gray-100">UCSD Recreation</a>. Friday and Saturday classes are arranged directly with the club.
+              All classes are arranged directly with the club via <a href="https://discord.com/invite/F6gSrcG" className="border-b border-gray-700 hover:border-gray-100">Discord</a>.
             </p>
             <p className="text-lg max-w-5xl pt-3">
               We accept payment in the following forms:
