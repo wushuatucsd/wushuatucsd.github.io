@@ -89,7 +89,7 @@ const IndexPage = () => {
               <Class
                 day="Saturday"
                 coach="Daniel, 10+ years of experience"
-                desc="For: Intermediate skill levels, looking to elevate their wushu · $80/qtr, or $15 to drop in"
+                desc="For: All skill levels · $80/qtr, or $15 to drop in. Rides will be arranged on campus at 6:30 pm at parking lot P303."
                 time="7:00 pm - 10:00 pm"
                 img={data.gd.childImageSharp.fluid}
               />
