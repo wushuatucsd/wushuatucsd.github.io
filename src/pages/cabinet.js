@@ -98,11 +98,6 @@ const IndexPage = () => {
           </div>
           {/*Left Column*/}
           <Member
-            title="President"
-            name="Benson Zhu"
-            desc="Benson is a 4th-year Math CS major who just can’t stop. Can’t stop yapping, can’t stop getting distracted, can’t stop piling responsibilities onto cabinet, can’t stop trailing this sentence on for too long… As president of the club, he actually holds no substantial power and only goes to meetings to charade for 45 minutes. When he isn’t blabbering on, you can find him destroying his eardrums listening to metal or baking a sweet treat, maybe even both at the same time if you’re lucky !"
-            img={data.benson.childImageSharp.gatsbyImageData} />
-          <Member
             title="Vice President"
             name="Thomas"
             desc="Thomas is a 3rd-year transfer Aerospace Engineering student. As Vice President, Thomas’s biggest contribution to the club is being the designated driver for club events and practices as well as doing equipment orders for the club (he also helps Benson with day to day tasks every now and then…). You can usually find Thomas zipping around Campus on his scooter. You are more then welcome to flag him down at your own peril."
@@ -117,6 +112,11 @@ const IndexPage = () => {
             name="Alyssa"
             desc="Alyssa is a 3rd-year Structural Engineering major who serves as the secretary for the club. Besides basically typing whatever Benson says at meetings and answering emails here and there, she usually hangs out in her dorm either at her desk procrastinating or wanting to lay down in her bed. In the off chance that you see her, ask her to do a flip and receive a confused look of a retired gymnast who hasn’t practiced in 2-3 years."
             img={data.jerwey.childImageSharp.gatsbyImageData} />
+          <Member
+            title="President"
+            name="Benson Zhu"
+            desc="Benson is a 4th-year Math CS major who just can’t stop. Can’t stop yapping, can’t stop getting distracted, can’t stop piling responsibilities onto cabinet, can’t stop trailing this sentence on for too long… As president of the club, he actually holds no substantial power and only goes to meetings to charade for 45 minutes. When he isn’t blabbering on, you can find him destroying his eardrums listening to metal or baking a sweet treat, maybe even both at the same time if you’re lucky !"
+            img={data.benson.childImageSharp.gatsbyImageData} />
           <Member
             title="Social Chair"
             name="Alexander"
