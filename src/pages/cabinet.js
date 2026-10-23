@@ -98,70 +98,39 @@ const IndexPage = () => {
           </div>
           {/*Left Column*/}
           <Member
-            title="vice president"
-            name="vivian yu"
-            desc="vivian (虞薇) is a 4th year feeble scholar in ERC. as vice president her duties include collecting swords (currently 6 in her possession at the time of writing), trafficking goods from china, and embezzling resources from the CSE department. when she is not present at practice you may find her asleep in class, asleep in a lab meeting, or asleep at work. her favorite wushu forms are jian (straightsword) and wing chun."
-            img={data.vivian.childImageSharp.gatsbyImageData} />
-          <Member
-            title="Demo Choreographer"
-            name="Daniel Xie"
-            desc="Daniel is a second year Human Biology major who’s practiced Wushu long enough to sacrifice both knees in the name of martial arts. After skipping practices, his splits were stolen by Alex (splits can’t be created or destroyed, only transferred)."
-            img={data.daniel.childImageSharp.gatsbyImageData} />
-          <Member
-            title="Coach"
-            name="Serena Xie"
-            desc="Serena is a fourth year data science and chinese studies major at Marshall College. As a Jojo stan, she has mastered the art of posing and has thus obtained a stand power which enables her to function with a cursed amount of sleep."
-            img={data.serena.childImageSharp.gatsbyImageData} />
-          <Member
-            title="Internal"
-            name="BingBing Guinto"
-            desc={`BingBing is a second year MCB major whose cackle you’ve probably heard echoing all the way from Revelle. When she isn’t stressing over that one pesky class, she can be found watching videos instead of studying, and getting her third drink from Audrey’s Cafe. As internals, she’s in charge of <s>peer pressuring you to go to socials</s> encouraging socialization and planning your next Wushu memory. Amid her chaotic personality, she is very friendly, so don't be afraid to suggest any socials you want to have!`}
-            img={data.bingbing.childImageSharp.gatsbyImageData}
-            /*useSmallFont="1"*/ />
-          <Member
-            title="Treasurer"
-            name="Brandon Nguyen"
-            desc="My name is Brandon Nguyen and I’m a 4th year business economics student. I have a background in taekwondo and roughly 4 years of wushu experience. Hobbies of mine include reading, watching tv, and cooking fancy meals."
-            img={data.brandon.childImageSharp.gatsbyImageData} />
-          {/* don't delete this, we will never let jeremy retire
-          <Member
-            title="Demo Coordinator"
-            name="Jeremy Lei"
-            desc={`Jeremy “Big J” is a fourth year Math-CS major at seventh college. After his return to wushu, he has lost all sense of shame (though I’m not sure he had any to begin with) and can frequently be found doing wushu in the wild (especially hammerfists). When not performing this strange ritual, he can usually be found downing Tapex’s fried chicken and milk tea or procrastinating on his homework.`}
-            img={data.jeremy.childImageSharp.gatsbyImageData} /> */}
-
-          <Member
             title="President"
             name="Benson Zhu"
-            desc="Benson is a fourth year Sociology major. Some may say he is going through an existential crisis: an ex-vegetarian, non-STEM pre-med, constantly deciding whether he should land that jump on his two broken knees. However, knowing him, things are probably less serious in the places where he stands—it’s all made up. As club internal, he’ll keep you in the loop about the what, where, and when of all our exciting events, so stick around and keep your eyes peeled for the fun!"
-            img={data.jerwey.childImageSharp.gatsbyImageData} />
-
+            desc="Benson is a 4th-year Math CS major who just can’t stop. Can’t stop yapping, can’t stop getting distracted, can’t stop piling responsibilities onto cabinet, can’t stop trailing this sentence on for too long… As president of the club, he actually holds no substantial power and only goes to meetings to charade for 45 minutes. When he isn’t blabbering on, you can find him destroying his eardrums listening to metal or baking a sweet treat, maybe even both at the same time if you’re lucky !"
+            img={data.benson.childImageSharp.gatsbyImageData} />
           <Member
-            title="Coach"
-            name="Alex Zhang"
-            desc="Alex Zhang is a fourth year ICAM major and CSE minor. He started wushu in Beijing, China as a kid (elementary school), but stopped practicing regularly in high school. He then started training for competitive wushu in college. Outside of wushu, he plays a lot of video games - Mostly fps games and occasionally plays cs casually."
-            img={data.alex.childImageSharp.gatsbyImageData} />
-
+            title="Vice President"
+            name="Thomas"
+            desc="Thomas is a 3rd-year transfer Aerospace Engineering student. As Vice President, Thomas’s biggest contribution to the club is being the designated driver for club events and practices as well as doing equipment orders for the club (he also helps Benson with day to day tasks every now and then…). You can usually find Thomas zipping around Campus on his scooter. You are more then welcome to flag him down at your own peril."
+            img={data.vivian.childImageSharp.gatsbyImageData} />
+          <Member
+            title="Treasurer"
+            name="Toby"
+            desc="Toby is a 3rd year Data Science major. As the Chief Financial Officer (CFO) of the club he will make the bi-monthly trip to Chase bank with Benson. Toby has made his long awaited return to wushu after a 2 year hiatus and is preparing to compete."
+            img={data.brandon.childImageSharp.gatsbyImageData} />
           <Member
             title="Secretary"
-            name="Benson Zhu"
-            desc="Benson is a 3rd year Math CS major who is chronically online. When he isn't accidentally bruising himself at practice, he enjoys baking sweet treats and listening to metal at potentially debilitating volumes. As the club secretary, he is constantly reminding you of that one thing that you were supposed to do several weeks ago and talking about current happenings (off and on topic). Behind his rbf lies a hunger for conversation and a little laugh, so do say hi !"
-            img={data.benson.childImageSharp.gatsbyImageData} />
-            <Member
+            name="Alyssa"
+            desc="Alyssa is a 3rd-year Structural Engineering major who serves as the secretary for the club. Besides basically typing whatever Benson says at meetings and answering emails here and there, she usually hangs out in her dorm either at her desk procrastinating or wanting to lay down in her bed. In the off chance that you see her, ask her to do a flip and receive a confused look of a retired gymnast who hasn’t practiced in 2-3 years."
+            img={data.jerwey.childImageSharp.gatsbyImageData} />
+          <Member
+            title="Social Chair"
+            name="Alexander"
+            desc="Alexander is a 4th-year Marine Biology major and the Social chair. This social chair loves to do everything except what they are actually supposed to be doing via making a one person job a multi person job or an unnecessary side quest. While lamenting not graduating on time, you can usually catch them reading papers and documentation for funsies in the library and if you come to them with a picture of an animal or a question about a ecological process, you can see the essence of their soul."
+            img={data.bingbing.childImageSharp.gatsbyImageData} />
+          <Member
             title="Historian"
-            name="Novak Tatarevic"
-            desc="Novak is a third year Anthropology Major with an Archaeology concentration. In his role as historian he is mostly concerned with farming raw material (photos and videos) for the UCSD Wushu content machine. As for martial arts, he has had experience in more traditional Chinese martial arts (Shaolin Kung Fu) and has started practicing contemporary styles since joining the club. Outside of all that, he enjoys a good adventure (aka: lots of walking), nature, cooking, writing, and videogames. "
-            img={data.novak.childImageSharp.gatsbyImageData}/>
-          {/*<Member
-            title="Freeloader"
-            name="Bobby Reilly"
-            desc="Bobby is occasionally at practice - not to do anything productive, just to let his anger out on children."
-            img={data.bobby.childImageSharp.gatsbyImageData} />*/}
-              <Member
-            title="Coach"
-            name="Jessica Tuey"
-            desc={"Jess is a 4th-year Kinesiology (pre-PT) major & Psychology minor at San Diego State. Aside from coaching UCSD’s club, she also coaches and presides over the new Aztec Wushu Club at SDSU. She loves her miaodao and enjoys hauling that giant sword to every wushu event possible. Her specialty is mostly traditional kung fu and some changquan, but she hopes to practice more contemporary wushu. Besides training, she enjoys eating copious amounts of food, side questing with friends, crashing out over the NFL, and lifting heavy circles. If you want workout advice, an adventure buddy, or just to yap, please don’t hesitate to reach out! "}
-            img={data.jess.childImageSharp.gatsbyImageData} />
+            name="Lauren"
+            desc="Lauren is a 4th-year Cognitive Science major. She has the beauty, the grace, and the power to change the club through meme-posting on the Instagram account (well, not really, each post is peak). You can usually find her at Labora Cafe or Wong Avery Library locking in on an assignment or hanging out with people in and outside of wushu. If you’re lucky, you might witness the process of her creating an artistic masterpiece that will be posted on Instagram… "
+            img={data.novak.childImageSharp.gatsbyImageData} />
+          <Member
+            title="General Advisor"
+            name="Justin"
+            desc="Justin is a 2nd-year Microbiology major and General Advisor for the club, which amounts to him doing whatever happens to be needed. A proverbial youngling (born in 2007) in the club, While more of a class-eat-class-sleep kind of person, if you know where to find him during passing period, you might just break records in sneakily taking pictures of him (much to his eternal dismay). Better yet, wait until he inevitably pops up in the Discord channel to game and ambush him." />
           
         </BackgroundImage>
     </Layout>
