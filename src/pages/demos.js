@@ -53,7 +53,7 @@ const IndexPage = () => {
             <h3 className="text-lg lg:text-xl text-cyan-500 hover:underline" ><a href="https://forms.gle/x2QLFT2RTkWfoLcy7">Performance request form</a></h3>
           </div>
           <LatestDemo 
-            name="Chinese Global Community Demo"
+            name="Chinese Global Community"
             date="September 25, 2026"
             link="https://drive.google.com/file/d/183-L6c5va_RTVdVtMrI7qXLuUlONLERW/view?usp=sharing"
             img={data.cgc2026.childImageSharp.fluid}
