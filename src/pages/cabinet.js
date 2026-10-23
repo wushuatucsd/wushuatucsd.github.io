@@ -46,7 +46,7 @@ const IndexPage = () => {
           gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 0.666667)
         }
       }
-      all: file(relativePath: { eq: "images/cabinet/troll.JPG" }) {
+      all: file(relativePath: { eq: "images/cabinet/group.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1920) {
             ...GatsbyImageSharpFluid
