@@ -9,6 +9,13 @@ import LatestDemo from "../components/latestdemo"
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
+      cgc2026: file(relativePath: { eq: "images/demos/chineseglobalcommunity26.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1280) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       cshp2024: file(relativePath: { eq: "images/demos/2024cshp.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1280) {
@@ -42,20 +49,27 @@ const IndexPage = () => {
             <h1 className="text-3xl lg:text-4xl mt-auto lg:pr-64 z-10" style={{ fontVariationSettings: "'wdth' 125, 'wght' 700" }}>
               Demos
             </h1>
-            <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>July 30, 2024</strong></h3>
+            <h3 className="text-lg lg:text-xl text-gray-500" >Last updated <strong>October 2026</strong></h3>
             <h3 className="text-lg lg:text-xl text-cyan-500 hover:underline" ><a href="https://forms.gle/x2QLFT2RTkWfoLcy7">Performance request form</a></h3>
           </div>
           <LatestDemo 
-          name="CSHP Culture Fusion"
-          date="May 24, 2024"
-          link="https://www.youtube.com/watch?v=ROizbtrRuxI"
-          img={data.cshp2024.childImageSharp.fluid}/>
+            name="Chinese Global Community Demo"
+            date="September 25, 2026"
+            link="https://drive.google.com/file/d/183-L6c5va_RTVdVtMrI7qXLuUlONLERW/view?usp=sharing"
+            img={data.cgc2026.childImageSharp.fluid}
+          />
+          <Demo
+            name="CSHP Culture Fusion"
+            date="May 24, 2024"
+            link="https://www.youtube.com/watch?v=ROizbtrRuxI"
+            img={data.cshp2024.childImageSharp.fluid}
+          />
           <Demo
             name="Asian Arts at Pepper Canyon"
             date="May 8, 2024"
             link="https://www.youtube.com/watch?v=zGJczFD60Fc"
             img={data.peppercanyon24.childImageSharp.fluid} /> 
-            <Demo
+          <Demo
             name="Animefest 2024"
             date="February 17, 2024"
             link="https://www.youtube.com/watch?v=yTrPiJzdr68"
