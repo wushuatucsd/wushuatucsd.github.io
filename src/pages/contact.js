@@ -20,7 +20,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Contact" />
       <div className="min-h-screen flex lg:pl-xs">
         <div className="border-solid lg:border-l flex items-stretch flex-col w-full max-w-full">
           <BackgroundImage
@@ -32,7 +32,7 @@ const IndexPage = () => {
               <a
                 className="border-b border-transparent hover:border-gray-100"
                 style={{ fontVariationSettings: `'wdth' 125, 'wght' 700` }}
-                href="mailto:wushu@ucsd.edu">wushu@ucsd.edu</a>
+                href="mailto:wushuatucsd@gmail.com">wushuatucsd@gmail.com</a>
             </h1>
           </BackgroundImage>
         </div>
