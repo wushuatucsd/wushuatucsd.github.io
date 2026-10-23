@@ -28,12 +28,12 @@ const IndexPage = () => {
       }
       benson: file(relativePath: { eq: "images/cabinet/benson.jpg" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 0.666667)
         }
       }
       alex: file(relativePath: { eq: "images/cabinet/alex.jpg" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 0.666667)
         }
       }
       lauren: file(relativePath: { eq: "images/cabinet/lauren.jpg" }) {
@@ -43,7 +43,7 @@ const IndexPage = () => {
       }
       justin: file(relativePath: { eq: "images/cabinet/justin.JPG" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG, aspectRatio: 0.666667)
         }
       }
       all: file(relativePath: { eq: "images/cabinet/troll.JPG" }) {
