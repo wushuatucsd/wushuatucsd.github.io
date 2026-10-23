@@ -9,7 +9,7 @@ import LatestDemo from "../components/latestdemo"
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      cgc2026: file(relativePath: { eq: "images/demos/chineseglobalcommunity26.png" }) {
+      cgc2026: file(relativePath: { eq: "images/demos/chineseglobalcommunity26.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1280) {
             ...GatsbyImageSharpFluid
